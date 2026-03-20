@@ -28,7 +28,7 @@ public class DataInitializer implements CommandLineRunner {
 
         if (!userRepository.existsByEmail("user@assettracking.com")) {
             User user = User.builder()
-                    .name("John Doe")
+                    .name("Rinsin Rahim")
                     .email("user@assettracking.com")
                     .password(passwordEncoder.encode("user123"))
                     .role(User.Role.USER)
